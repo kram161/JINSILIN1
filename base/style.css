@@ -87,7 +87,7 @@ footer{
     text-decoration:none;
 }
 .callback-unit{
-    margin:0 25px;
+    margin:0 0 0 25px;
 }
 .callback-unit:nth-child(2){
     padding:0 25px;
@@ -173,22 +173,20 @@ footer{
 }
 .main-info__services{
     display:flex;
-    width:1136px;
+    width:80%;
     background:#fff;
     position:absolute;
     bottom: -73px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
     left:50%;
-    margin-left:-568px;
+    margin-left:-40%;
 }
 .main-info__services-unit{
     display:flex;
-    width:286px;
     align-items:center;
-    margin:40px 5px 40px 30px;
+    margin:37px 5px 44px 30px;
 }
 .main-info__services-unit p{
-    width:155px;
     font-weight: 900;
     font-size: 15px;
     line-height: 22px;
@@ -202,6 +200,10 @@ footer{
 }
 .about{
     background:#fff;
+}
+.about-us__img img{
+    width:100%;
+    height:auto;
 }
 .about-us{
     padding:150px 0 150px 0;
@@ -236,7 +238,7 @@ footer{
     font-weight: 300;
     font-size: 15px;
     color: #484848;
-    width:650px;
+    width:100%;
     margin:0;
 }
 .services{
@@ -302,7 +304,6 @@ footer{
 .international-form{
     background:#FEB921;
     height:244px;
-    width:490px;
 }
 .international-form p{
     padding:23px;
@@ -320,7 +321,6 @@ footer{
     outline: none;
     margin:20px 10px 20px 20px;
     padding:10px 20px;
-    width:295px;
     height:42px;
 }
 .international-form input::placeholder{
@@ -338,6 +338,8 @@ footer{
     padding:10px 20px;
     text-transform: uppercase;
     width:122px;
+    float:right;
+    margin:20px 0 0 0;
 }
 .international-form button:hover{
     color:#000;
@@ -345,7 +347,8 @@ footer{
 }
 .international-map svg{
     position:relative;
-    left:67px;
+    width:100%;
+    height:auto;
 }
 .international-form,.international-map{
     margin:128px 0 100px 0;
@@ -354,13 +357,12 @@ footer{
     margin:129px auto 80px auto;
 }
 .request-img img{
-    width:660px;
-    height:645px;
+    width:90%;
+    height:auto;
 }
 .request-form{
     background:#fff;
-    width:550px;
-    height:645px;
+    height:auto;
     position: relative;
     right:-10px;
 }
@@ -373,7 +375,7 @@ footer{
     font-size:35px;
     font-weight:900;
     color:#212121;
-    margin:57px 0 11px 30px;
+    margin:20px 0 11px 0;
 }
 .request-form input{
     padding:15px 21px;
@@ -383,13 +385,13 @@ footer{
     border:none;
     outline: none;
     margin:11px auto;
-    width:466px;
+    width:100%;
     color:#484848;
 }
 .request-form textarea{
     resize: none;
-    width:466px;
-    height:154px;
+    width:100%;
+    height:150px;
     margin:11px auto;
     background:#F2F5F6;
     font-size:15px;
@@ -405,8 +407,8 @@ footer{
 }
 .request-form button{
     position:absolute;
-    bottom:-89px;
-    right:30px;
+    bottom:-90px;
+    right:0;
     background:#FEB921;
     font-size: 15px;
     font-weight:700;
@@ -616,59 +618,38 @@ footer{
 .footer__bottom a:hover .footer-btn{
     stroke:#000;
 }
-@media (max-width:1091px){
-    .navbar-button a{
-        margin:20px 0 0 0;
-    }
-    .main-info__services{
-        width: 1000px;
-        margin-left:-500px;
+@media (max-width:1196px){
+    .request-form textarea{
+        height: 50px;
     }
     .main-info__services-unit{
-        width:210px;
+        display:flex;
+        align-items:center;
+        margin:20px 5px 20px 30px;
     }
-    .main-info__services-unit p{
+    .main-info__services {
+        width: 90%;
+        margin-left: -45%;
+    }
+    .main-info__services-unit p {
         font-size: 14px;
     }
-    .about-us__img img{
-        width:100%;
-        height:auto;
+}
+@media (max-width:1039px){
+    .navbar-button a {
+        font-size: 13px;
+        padding: 22px 10px;
     }
-    .about-us__text p{
-        width:100%;
+    .main-info__services-unit{
+        display:flex;
+        align-items:center;
+        margin:20px 5px 20px 30px;
     }
-    .international-map svg{
-        width:100%;
-        height:auto;
+    .main-info__services {
+        width: 90%;
+        margin-left: -45%;
     }
-    .international-form{
-        width: 380px;
-    }
-    .international-form input{
-        width:180px;
-    }
-    .international-form p {
-        font-size: 25px;
-    }
-    .request-img img {
-        width: 100%;
-        height: auto;
-    }
-    .request-form {
-        width: 400px;
-        height:541px;
-    }
-    .request-form h2 {
-        margin: 57px 0 11px 0;
-    }
-    .request-form input {
-        width: 380px;
-    }
-    .request-form textarea {
-        width: 380px;
-        height: 80px;
-    }
-    .request-form button {
-        right: 0;
+    .main-info__services-unit p {
+        font-size: 14px;
     }
 }
