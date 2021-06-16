@@ -205,7 +205,7 @@ footer{
     background:#fff;
 }
 .about-us{
-    padding:150px 0 0 0;
+    padding:150px 0 150px 0;
 }
 .about-us__text{
     position:relative;
@@ -245,7 +245,6 @@ footer{
     background-repeat:no-repeat;
     background-size: cover;
     min-height:310px;
-    margin:86px 0 0 0;
 }
 .services-units{
     display:flex;
