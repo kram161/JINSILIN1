@@ -61,7 +61,7 @@ footer{
     justify-content:space-between;
 }
 .navbar-button{
-    margin:15px 0 0 0;
+    margin:20px 1px 0 0;
 }
 .navbar-button a{
     color:#000;
@@ -71,7 +71,7 @@ footer{
     font-size:15px;
     text-transform:uppercase;
     border-radius:0;
-    padding:22px 35px;
+    padding:22px 13px;
     text-decoration:none;
 }
 .navbar-button a:hover{
@@ -92,7 +92,6 @@ footer{
 .callback-unit:nth-child(2){
     padding:0 25px;
     border-left:1px solid rgba(124, 131, 136, 0.38);;
-    border-right:1px solid rgba(124, 131, 136, 0.38);;
 }
 .callback-unit__description a{
     font-weight:700;
@@ -616,4 +615,60 @@ footer{
 }
 .footer__bottom a:hover .footer-btn{
     stroke:#000;
+}
+@media (max-width:1091px){
+    .navbar-button a{
+        margin:20px 0 0 0;
+    }
+    .main-info__services{
+        width: 1000px;
+        margin-left:-500px;
+    }
+    .main-info__services-unit{
+        width:210px;
+    }
+    .main-info__services-unit p{
+        font-size: 14px;
+    }
+    .about-us__img img{
+        width:100%;
+        height:auto;
+    }
+    .about-us__text p{
+        width:100%;
+    }
+    .international-map svg{
+        width:100%;
+        height:auto;
+    }
+    .international-form{
+        width: 380px;
+    }
+    .international-form input{
+        width:180px;
+    }
+    .international-form p {
+        font-size: 25px;
+    }
+    .request-img img {
+        width: 100%;
+        height: auto;
+    }
+    .request-form {
+        width: 400px;
+        height:541px;
+    }
+    .request-form h2 {
+        margin: 57px 0 11px 0;
+    }
+    .request-form input {
+        width: 380px;
+    }
+    .request-form textarea {
+        width: 380px;
+        height: 80px;
+    }
+    .request-form button {
+        right: 0;
+    }
 }
